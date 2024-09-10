@@ -1,0 +1,804 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* #main-section {
+   
+} */
+
+#header-hero-div {
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, black, gray);
+}
+
+/* desktop view for header section */
+@media only screen and (min-width: 1440px) {
+    #navbar {
+        max-width: 65%;
+        margin: 0 auto;
+    }
+}
+
+#navbar {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+    font-size: 18px;
+    /* background-color: red; */
+}
+
+/* making the navbar sticky. This class is referrence in the javascript file */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black
+}
+
+#nav-menu-links {
+    display: flex;
+    gap: 10px;
+}
+
+#nav-menu-links a {
+    color: white;
+    padding: 15px 10px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .menu-arrow {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+.search-button-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#search-icon {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    /* background-color: green; */
+}
+
+#btn-login {
+    background-color: transparent;
+    border: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: white;
+    color: white;
+    border-style: solid;
+    padding: 10px 20px;
+}
+
+#btn-trial {
+    background-color: white;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* hero section css starts here */
+
+#rate-container {
+    width: 50%;
+    margin: 0px auto 0;
+    padding: 70px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 15px; */
+}
+
+/* #rate-container div {
+    border-right: 1px solid red;
+} */
+
+#hero-section {
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to bottom right, black, gray);
+}
+
+.rate-div {
+    color: white;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid gray;
+    padding: 0 15px;
+    margin: 20px 0 10px;
+}
+
+.rate-div-right {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.rate-logo {
+    width: 30px;
+}
+
+#hero-section>h2 {
+    font-size: 55px;
+    text-align: center;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 76.8px;
+    padding: 0 0 50px;
+}
+
+#hero-logo-container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* desktop view for hero-logo-container section */
+@media only screen and (min-width: 1440px) {
+    #hero-logo-container {
+        max-width: 35%;
+        margin: 0 auto;
+    }
+}
+
+.hero-logo-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 50px;
+}
+
+.hero-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.hero-logo-div p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #d8d8d8;
+    font-family: "Roboto", sans-serif;
+    margin: 8px 0 0;
+}
+
+#hero-btn-div {
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#hero-btn {
+    /* width: 30%; */
+    margin: 5px auto 40px;
+    padding: 30px 100px;
+    text-align: center;
+    background-color: #ffce00;
+    border: none;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 32px;
+    border-radius: 5px;
+}
+
+#hero-banner-div {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+/* desktop view for hero-banner-div section */
+@media only screen and (min-width: 1440px) {
+    #hero-banner-div {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
+
+#hero-banner {
+    width: 100%;
+}
+
+/* company logo deiv section css starts here */
+#company-logo-section {
+    background-color: black;
+}
+
+#company-logo-div {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#company-logo-div>h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 38.4px;
+    padding: 50px 10px;
+    font-family: 'Barlowsemicon_Regular';
+}
+
+#company-logos-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 25px; */
+    margin: 0 auto;
+    padding: 5px 0 50px;
+}
+
+/* desktop view for company-logos-div section */
+@media only screen and (min-width: 1440px) {
+    #company-logos-div {
+        max-width: 68%;
+        margin: 0 auto;
+    }
+}
+
+.company-logos {
+    width: 96px;
+    height: 96px;
+}
+
+/* scale campaign css starts here */
+
+#scale-campaign {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#scale-campaign-text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#scale-campaign-h1 {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    padding: 70px 0 0 20px;
+    color: #303030;
+}
+
+#scale-campaign-p {
+    font-style: normal;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    vertical-align: baseline;
+    width: 90%;
+    margin: 20px auto 40px;
+    color: #303030;
+    line-height: 1.7;
+}
+
+#campaign-cards {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/* desktop view for campaign-cards section */
+@media only screen and (min-width: 1440px) {
+    #campaign-cards {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+#campaign-cards article {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#campaign-img {
+    width: 90px;
+    height: 80px;
+}
+
+#campaign-cards h3 {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+#campaign-cards div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article p {
+    line-height: 1.8;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#campaign-arrow {
+    width: 32px;
+    height: 32px;
+}
+
+/* campaign iframe section starts here */
+
+#campaign-iframe-div {
+    width: 70%;
+    height: 400px;
+    margin: 70px auto;
+    padding: 0 0 0px;
+}
+
+/* desktop view for campaign-iframe-div section */
+@media only screen and (min-width: 1440px) {
+    #campaign-iframe-div {
+        max-width: 50%;
+        margin: 70px auto;
+    }
+}
+
+#campaign-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* marketers love unbounce section css starts here */
+
+#marketers-cards-div {
+    width: 100%;
+    margin: 20px auto;
+    padding: 50px 0;
+}
+
+#marketers-cards-div h2 {
+    text-align: center;
+    line-height: 86px;
+    font-weight: 400;
+    font-size: 56px;
+    margin-bottom: 0;
+}
+
+#marketers-p {
+    width: 65%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7;
+    font-style: normal;
+    vertical-align: baseline;
+    margin: 0 auto;
+}
+
+#marketers-cards {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 20px; */
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* desktop view for marketers-cards section */
+@media only screen and (min-width: 1440px) {
+    #marketers-cards {
+        max-width: 60%;
+        margin: 70px auto;
+    }
+}
+
+#marketers-cards article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+#marketers-img {
+    width: 100%;
+}
+
+.marketers-text-div {
+    background-color: rgb(242, 242, 242);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 50px 30px;
+
+}
+
+.marketers-link-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#marketers-text-p {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: baseline;
+    margin: 10px auto;
+    padding: 5px 0 30px;
+}
+
+/* css for claire testimony section */
+
+#claire-testimony {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0 5px 0;
+}
+
+/* desktop view for claire-testimony section */
+@media only screen and (min-width: 1440px) {
+    #claire-testimony {
+        max-width: 63%;
+        /* margin: 0px auto; */
+    }
+}
+
+#claire-testimony img {
+    width: 200px;
+}
+
+#claire-testimony p {
+    font-weight: 300;
+    font-size: 32px;
+}
+
+#claire-testimony small {
+    font-size: 23px;
+    line-height: 27px;
+    display: block;
+    margin-top: 52px;
+}
+
+/* css for scale marketing section starts here */
+#scale-markerting {
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+#scale-markerting-wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#scale-markerting-div {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* desktop view for scale-markerting-div section */
+@media only screen and (min-width: 1440px) {
+    #scale-markerting-div {
+        width: 90%;
+        /* margin: 0px auto; */
+    }
+}
+
+.scale-marketing-details h2 {
+    font-weight: 400;
+    font-size: 50px;
+    padding: 0 30px 0 0;
+}
+
+.scale-marketing-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+}
+
+.scale-marketing-iframe {
+    /* height: 400px; */
+
+}
+
+.scale-marketing-details p {
+    padding: 0 100px 0 0;
+    font-size: 19px;
+}
+
+#marketing-arrow {
+    width: 32px;
+    height: 32px;
+}
+
+.scale-marketers-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.scale-marketers-div a {
+    color: white;
+}
+
+.scale-marketing-iframe iframe {
+    width: 100%;
+    height: 400px;
+}
+
+/* css for we're with you all the way section starts here */
+
+#with-you-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+#with-you-div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#with-you-div h3 {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+#with-you-div p {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.with-you-a-tags {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 0;
+    /* gap: 20px; */
+}
+
+/* desktop view for with-you-a-tags section */
+@media only screen and (min-width: 1440px) {
+    .with-you-a-tags {
+        width: 70%;
+        /* margin: 0px auto; */
+    }
+}
+
+.with-you-a-tags a {
+    border: 2px solid black;
+    padding: 13px 18px;
+    font-size: 20px;
+}
+
+.with-you-a-tags a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* css for blue background section starts here */
+
+#blue-bg-section {
+    background-color: blue;
+    color: white;
+}
+
+#blue-bg-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* desktop view for blue-bg-wrapper section */
+@media only screen and (min-width: 1440px) {
+    #blue-bg-wrapper {
+        width: 57%;
+        /* margin: 0px auto; */
+    }
+}
+
+#blue-bg-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.blue-button h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.blue-button p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#blue-bg-div div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: start;
+}
+
+.blue-button a {
+    color: white;
+    border: 2px solid white;
+    padding: 25px 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blue-button a:hover {
+    color: blue;
+    background-color: white;
+}
+
+/* css for the footer section starts here */
+
+#footer-links-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+/* desktop view for footer-links-section section */
+@media only screen and (min-width: 1440px) {
+    #footer-links-section {
+        width: 70%;
+        /* margin: 0px auto; */
+    }
+}
+
+#footer-links-section-img {
+    width: 200px;
+}
+
+#footer-icon-div {
+    width: 90%;
+    margin: 0 auto 50px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-links-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-links-div h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-links-div a {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer-links-div a:hover {
+    color: blue;
+}
+
+#footer-bottom-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 70px auto 0;
+}
+
+#footer-social-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#footer-policy-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+#footer-policy-links a:hover {
+    color: blue;
+}
+
+.footer-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social-icons-div {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.footer-social-icons-img {
+    width: 20px;
+}

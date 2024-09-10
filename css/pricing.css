@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: rgb(237, 236, 236);
+    /* font-weight: 200; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-section {
+    background-image: linear-gradient(to bottom right, black, gray);
+}
+
+#header-hero-div {
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    position: fixed; /* this css makes the menu static*/
+}
+
+/* desktop view for header section */
+@media only screen and (min-width: 1440px) {
+    #navbar {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+#navbar {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+    font-size: 18px;
+    /* background-color: red; */
+}
+
+/* making the navbar sticky. This class is referrence in the javascript file */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black
+}
+
+#nav-menu-links {
+    display: flex;
+    gap: 10px;
+}
+
+#nav-menu-links a {
+    color: white;
+    padding: 15px 10px;
+    font-weight: 300;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .menu-arrow {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+.search-button-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#search-icon {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    /* background-color: green; */
+}
+
+#btn-login {
+    background-color: transparent;
+    border: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: blue;
+    color: blue;
+    border-style: solid;
+    padding: 10px 20px;
+}
+
+/* This is the css for btn login hover effect */
+
+/* #btn-login:hover {
+    background-color: blue;
+    color: white;
+} */
+
+/* css codes for the price section starts here */
+
+.price-main-section {
+    /* background-color: green; */
+}
+
+#price-h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
+    padding: 42px 0;
+}
+
+#monthly-yearly-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+#monthly-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 20px 0;
+}
+
+#out-div {
+    border: 1px solid gray;
+    width: 70px;
+    height: 30px;
+    /* padding: 10px 30px; */
+    border-radius: 30px;
+    
+}
+
+#out-p {
+    background-color: gray;
+    width: 45%;
+    height: 100%;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#yearly-div {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+    gap: 10px;
+}
+
+#yearly-div-p {
+    background-color: #67E6B2;
+    padding: 4px 8px;
+}
+
+/* css for the price section starts here */
+
+/* #price-section {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    display: none;
+} */
+
+/* desktop view for price-section section */
+@media only screen and (min-width: 1440px) {
+    #price-section {
+        /* width: 90%; */
+        margin: 0 auto;
+        align-items: center;
+        gap: 20px;
+        display: flex;
+        padding-bottom: 20px;
+        /* display: none; */
+        max-width: 62%;
+        margin: 0 auto;
+    }
+}
+
+/* tablet and laptop view for price-section section */
+@media only screen and (max-width: 1752px) {
+    #price-section {
+        display: none;
+    }
+}
+
+#price-section:nth-child(2) {
+    background-color: red;
+}
+
+#price-card-div {
+    flex: 1;
+    padding: 0px 25px 50px;
+    margin-top: 70px;
+    background-color: white;
+}
+#price-card-div-1 {
+    flex: 1;
+    border: 2px solid rgb(203, 179, 179);
+    padding: 0px 25px 50px;
+    margin-top: 70px;
+    background-color: white;
+}
+
+#price-card-logo {
+    margin-top: -30px;
+}
+
+/* #price-card-logo img {
+    width: 80px;
+    height: 100px;
+} */
+
+#price-h-p-div {
+
+}
+
+#price-h-p-div h3 {
+    font-size: 32px;
+    font-weight: 200;
+    margin: 20px 0;
+}
+
+#price-h-p-div p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 0 20px 0;
+}
+
+#main-price-div {
+    margin: 0 0 50px;
+}
+
+#main-price-div h2 {
+    font-size: 50px;
+}
+
+#main-price-div span {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#first-card-ul {
+    margin-top: 20px;
+    padding: 20px 0 30px 0;
+    border-bottom: 1px solid gray;
+}
+
+#second-card-ul {
+    margin-top: 10px;
+    padding: 10px 0 30px 0;
+    border-bottom: 1px solid gray;
+}
+
+#third-card-ul {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+#first-card-ul li, #second-card-ul li, #third-card-ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 13px;
+    border-bottom: 1px dotted;
+}
+
+ul {
+    list-style: none;
+}
+
+#start-building-btn {
+    display: block;
+    background-color: blue;
+    border: 3px solid blue;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+/* #contact-sales-btn-div {
+    width: 100%;
+} */
+
+#contact-sales-btn {
+    display: block;
+    color: blue;
+    padding: 15px 30px;
+    border: 3px solid blue;
+    text-align: center;
+}
+
+#contact-sales-btn:hover {
+    background-color: blue;
+    color: white;
+    border: 3px solid blue;
+    text-align: center;
+}
+
+#compare-all-div {
+    display: flex;
+    justify-content: center;
+    margin: 70px auto 40px;
+}
+
+#compare-all-btn {
+    width: 35%;
+    /* height: 100px; */
+    color: blue;
+    border: 2px solid blue;
+    padding: 40px 0;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+
+#compare-all-btn:hover {
+    /* width: 35%; */
+    /* height: 100px; */
+    color: white;
+    background-color: blue;
+}
+
+/* The css code for the table section for tablet devices starts here */
+
+/* #table-section {
+    width: 100%;
+    display: none;
+} */
+
+/* tablet and laptop view for table-section section */
+@media only screen and (min-width: 1752px) {
+    #table-section {
+        max-width: 100%;
+        margin: 0 auto;
+        display: none;
+    }
+}
+
+/* desktop view for table-section section */
+@media only screen and (min-width: 1440px) {
+    #table-section {
+        max-width: 80%;
+        margin: 0 auto;
+        display: none;
+    }
+}
+
+table {
+    width: 95%;
+    margin: 70px auto 0;
+    border-collapse: collapse;
+    /* border: 1px solid gray; */
+}
+
+/* tr:nth-child(1) {
+    border: none;
+} */
+
+th, td {
+    border: 1px solid gray;
+}
+
+/* #first-cell {
+    border: none;
+} */
+
+th {
+    width: 19%;
+    text-align: start;
+    padding: 20px;
+}
+
+td:nth-child(1) {
+    text-align: start;
+    padding-left: 10px;
+}
+
+th:first-child {
+    border: none;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(226, 226, 226);
+}
+
+td {
+    padding: 5px 0;
+    text-align: center;
+}
+
+/* table th, td {
+    border-right: 1px solid gray;
+} */
+
+td {
+    width: 19%;
+}
+
+/* The css for agency plan section starts here */
+
+#agency-plan-section {
+    background-color: black;
+    color: white;
+}
+
+#agency-plan-div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    /* padding: 0 20px; */
+}
+
+/* desktop view for agency-plan-div section */
+@media only screen and (min-width: 1440px) {
+    #agency-plan-div {
+        width: 60%;
+        /* background-color: red; */
+        /* margin: 0px auto; */
+    }
+}
+
+#agency-plan-div-text {
+    flex: 1;
+}
+
+#agency-plan-div p {
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 20px 15px;
+}
+#agency-plan-div h2 {
+    font-size: 56px;
+    line-height: 1.2;
+    padding: 0px 15px;
+    font-weight: 200;
+}
+
+#agency-plan-a-div {
+    padding: 40px 0;
+}
+
+#agency-plan-a {
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 15px;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+#agency-plan-a:hover {
+    background-color: rgb(82, 79, 79);
+    color: white;
+}
+
+#agency-plan-img-div {
+    flex: 1;
+    /* background-color: green; */
+}
+
+#agency-plan-img {
+    width: 550px;
+}
+
+/* css for the footer section starts here */
+
+#footer-links-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+/* desktop view for footer-links-section section */
+@media only screen and (min-width: 1440px) {
+    #footer-links-section {
+        width: 70%;
+        /* margin: 0px auto; */
+    }
+}
+
+#footer-links-section-img {
+    width: 200px;
+}
+
+#footer-icon-div {
+    width: 90%;
+    margin: 0 auto 50px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-links-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-links-div h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-links-div a {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer-links-div a:hover {
+    color: blue;
+}
+
+#footer-bottom-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 70px auto 0;
+}
+
+#footer-social-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#footer-policy-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+#footer-policy-links a:hover {
+    color: blue;
+}
+
+.footer-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social-icons-div {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.footer-social-icons-img {
+    width: 20px;
+}

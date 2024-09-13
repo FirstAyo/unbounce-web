@@ -21,6 +21,7 @@ a {
     width: 100%;
     margin: 0 auto;
     background-image: linear-gradient(to bottom right, black, gray);
+    position: fixed; /* this css makes the menu static*/
 }
 
 /* desktop view for header section */

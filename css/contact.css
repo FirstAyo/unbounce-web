@@ -257,8 +257,111 @@ main {
 #address-phone-section {
     background-color: black;
     color: white;
+    padding: 60px 0;
 }
 
+#check-digs-div {
+    display: block;
+}
+
+#check-digs h1 {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+#check-digs p {
+    text-align: center;
+    width: 65%;
+    margin: 10px auto;
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#check-digs-address {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 50px;
+    align-items: center;
+}
+
+/* desktop view for check-digs-address section */
+@media only screen and (min-width: 1440px) {
+    #check-digs-address {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.check-digs-details {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#check-digs-img {
+    width: 200px;
+}
+
+.digs-address h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.digs-address-nm {
+    padding-top: 50px;
+}
+
+.check-digs-details-berlin {
+    display: flex;justify-content: space-between;
+    width: 58%;
+}
+
+.digs-address-nm h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.digs-address p {
+    /* font-size: 24px; */
+    font-weight: 400;
+    margin: 5px 0;
+    padding: 5px 0;
+    line-height: 1.7;
+    font-size: 18px;
+}
+.digs-address-nm p {
+    /* font-size: 24px; */
+    font-weight: 400;
+    margin: 5px 0;
+    padding: 5px 0;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+/* css for the table section starts here */
+
+#our-digs-div {
+    display: none;
+}
+
+#our-digs-table-div {
+    display: flex;
+    align-items: center;
+}
+
+#digs-table-img {
+    width: 200px;
+}
 
 /* css for the footer section starts here */
 

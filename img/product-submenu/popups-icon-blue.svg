@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="#03f">
+  <rect width="36" height="36" fill="white"></rect>
+  <mask id="path-1-inside-1_1284_14328" fill="white">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.082 13.9836H16.5595H14.082Z"></path>
+  </mask>
+  <path d="M14.082 12.9836C13.5297 12.9836 13.082 13.4314 13.082 13.9836C13.082 14.5359 13.5297 14.9836 14.082 14.9836V12.9836ZM16.5595 14.9836C17.1118 14.9836 17.5595 14.5359 17.5595 13.9836C17.5595 13.4314 17.1118 12.9836 16.5595 12.9836V14.9836ZM14.082 14.9836H16.5595V12.9836H14.082V14.9836Z" fill="#03f" mask="url(#path-1-inside-1_1284_14328)"></path>
+  <path d="M5 10.5C5 10.3619 5.11193 10.25 5.25 10.25H26.25C26.3881 10.25 26.5 10.3619 26.5 10.5V16.5C26.5 16.6381 26.3881 16.75 26.25 16.75H5.25C5.11193 16.75 5 16.6381 5 16.5V10.5Z" fill="white" stroke="#03f" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M6.75 13.5H16.5" stroke="#03f" stroke-linecap="round"></path>
+  <path d="M31 14.75V25.75H17V14.75H31Z" fill="white" stroke="#03f"></path>
+  <path d="M20 19.5H28.25M22 22H26.5" stroke="#03f" stroke-linecap="round"></path>
+  <path d="M24.75 12H24M29.25 16.5H28.5" stroke="#03f" stroke-linecap="round"></path>
+</svg>

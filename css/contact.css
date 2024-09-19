@@ -91,7 +91,7 @@ main {
     -webkit-transform: rotate(45deg);
 }
 
-.menu-arrow {
+#menu-arrow {
     display: flex;
     align-items: center;
     padding: 0 10px;
@@ -324,8 +324,118 @@ main {
     margin-top: 5px;
 }
 
-
 /* the css for the solutions drop down menu section ends here */
+
+/* the css for the Resoures drop down menu section starts here */
+
+.resources-down-menu-section {
+    position: absolute;
+    top: 26%;
+    left: 22.5%;
+    /* right: 7.5%; */
+    background-color: white;
+    width: 78%;
+    height: 80%;
+    translate: -15% -15%;
+    /* margin: 0 auto; */
+    display: none;
+    box-shadow: 2px 2px 4px grey;
+}
+
+#resources-down-menu-div {
+    /* width: 95%; */
+    display: flex;
+    gap: 15px;
+    /* padding: 0px 0 50px; */
+}
+
+.resources-down-menu-left {
+    flex: 1;
+    padding: 60px 20px 0 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-icon-link {
+    display: flex;
+    align-items: center;
+}
+
+.resources-down-menu-middle {
+    flex: 1;
+    padding: 60px 30px 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#ai-copy-img {
+    width: 40px;
+}
+
+/* #ai-copy-img-ppc {
+    width: 30px;
+} */
+
+.resources-down-menu-right {
+    flex: 1;
+    height: 100%;
+    padding: 60px 40px 0;
+    background-color: rgb(242, 241, 241);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-self: stretch; */
+}
+
+#resource-right-div {
+    display: flex;
+    align-items: center;
+}
+
+#resource-right-div img {
+    width: 30px;
+}
+
+#resource-right-div h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.resources-down-menu-right p {
+    /* font-size: 18px; */
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.resources-down-menu-right a {
+    /* font-size: 18px; */
+    border-bottom: 1px solid black;
+    padding: 3px 0px;
+    /* background-color: red; */
+    width: 83%;
+}
+
+/* .resources-down-menu-items p {
+    margin-left: 45px;
+    font-size: 14px;
+    font-weight: 300;
+} */
+
+.menu-icon-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#scale-submenu-img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* the css for the Resources drop down menu section ends here */
 
 
 /* css we'd like to hear from you section starts here */

@@ -574,6 +574,45 @@ main {
 
 /* the css for the Your website is costing you customers section ends here */
 
+/* the css for the build stunning pages without code section starts here */
+
+#without-code-section {
+    background-color: white;
+}
+
+#without-code-section-h1{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 300;
+}
+
+#without-code-section-p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+#without-code-div {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#without-code-div-left {
+    flex: 1;
+}
+
+#without-code-div-left img {
+    width: 100%;
+}
+
+#without-code-div-right {
+    flex: 1;
+}
+
+/* the css for the build stunning pages without code section ends here */
+
 
 /* css for the footer section starts here */
 

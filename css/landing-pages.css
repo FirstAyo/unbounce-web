@@ -653,6 +653,56 @@ main {
 
 /* the css for the build stunning pages without code section ends here */
 
+/* the css for the high converting landing pages section starts here */
+
+#converting-pages-section {
+    background-color: #efeded;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#converting-pages-div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#converting-pages-div h3 {
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.7;
+}
+
+#converting-pages-div p {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#converting-pages-div div {
+    width: 50%;
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+#converting-pages-div a {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+/* the css for the high converting landing pages section ends here */
+
 
 /* css for the footer section starts here */
 

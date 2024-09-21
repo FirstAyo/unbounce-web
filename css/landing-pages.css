@@ -578,6 +578,7 @@ main {
 
 #without-code-section {
     background-color: white;
+    padding: 50px 0;
 }
 
 #without-code-section-h1{
@@ -589,14 +590,18 @@ main {
 #without-code-section-p{
     text-align: center;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.7;
     font-weight: 300;
+    width: 50%;
+    margin: 20px auto;
 }
 
 #without-code-div {
     width: 90%;
     display: flex;
     margin: 0 auto;
+    gap: 100px;
+    align-items: center;
 }
 
 #without-code-div-left {
@@ -609,6 +614,41 @@ main {
 
 #without-code-div-right {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+}
+
+#without-code-div-right img {
+    width: 60px;
+}
+
+#without-code-div-right h4 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 5px 0 20px;
+}
+
+#without-code-div-right p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#without-code-right-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#without-code-right-div img{
+    width: 30px;
+}
+
+#without-code-right-div a {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* the css for the build stunning pages without code section ends here */

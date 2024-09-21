@@ -114,6 +114,7 @@ main {
     background-color: blue;
     color: white;
 }
+
 #btn-login {
     background-color: transparent;
     border: 2px;
@@ -133,10 +134,11 @@ main {
     font-weight: bold;
     font-size: 15px;
 }
+
 #btn-trial:hover {
     background-color: white;
     color: blue;
-    border: 1px solid blue;
+    border: 2px solid blue;
 }
 
 /* css code for the header section stops here */
@@ -336,9 +338,9 @@ main {
 
 /* the css for the solutions drop down menu section ends here */
 
-#from-you-div {
-    /* margin-top: 50px; */
-}
+/* #from-you-div {
+    margin-top: 50px;
+} */
 
 
 /* the css for the Resoures drop down menu section starts here */
@@ -452,6 +454,125 @@ main {
 
 /* the css for the Resources drop down menu section ends here */
 
+/* the css for the landing page section starts here */
+
+#landing-page-div {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+#landing-page-right {
+    width: 50%;
+}
+
+#landing-page-right img {
+    width: 100%;
+}
+
+#landing-page-left {
+    width: 50%;
+}
+
+#landing-page-left h5 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#landing-page-top-div {
+    display: flex;
+    gap: 30px;
+}
+
+#landing-page-top-div p {
+    width: 60px;
+    height: 1.8px;
+    background-color: gray;
+}
+
+#landing-page-left h1 {
+    font-size: 51px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+#landing-page-left p {
+    font-size: 17px;
+    font-weight: 300;
+    margin: 10px 0 30px 0;
+    line-height: 1.7;
+}
+
+#landing-page-div-a {
+    width: 45%;
+    height: 60px;
+    margin: 50px 0;
+}
+
+#landing-page-left a {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    border: none;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* the css for the landing page section ends here */
+
+/* the css for the Your website is costing you customers section starts here */
+
+#website-cost-section {
+    background-color: #ECF0FF;
+}
+
+#website-cost-div {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 88%;
+    padding: 50px 0;
+    margin: 0 auto;
+    /* height: 450px; */
+    gap: 20px;
+}
+
+#website-cost-left {
+    width: 50%;
+}
+
+#website-cost-left h1{
+    font-size: 50px;
+    font-weight: 300;
+    padding: 30px 0;
+    line-height: 1.3;
+}
+
+#website-cost-left p{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 0px 0;
+    line-height: 1.7;
+}
+
+#website-cost-right {
+    width: 50%;
+}
+
+#website-cost-right iframe {
+    width: 100%;
+    height: 350px;
+}
+
+/* the css for the Your website is costing you customers section ends here */
 
 
 /* css for the footer section starts here */

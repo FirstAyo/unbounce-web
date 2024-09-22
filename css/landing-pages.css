@@ -820,9 +820,25 @@ main {
 }
 
 #help-you-bottom-cards {
+    width: 95%;
+    margin: 0 auto;
     padding: 40px 0;
     display: flex;
-    gap: 70px;
+    gap: 50px;
+}
+
+#help-you-bottom-cards h4 {
+    font-size: 28px;
+    font-weight: 300;
+    padding: 30px 0;
+    line-height: 1.5;
+}
+
+#help-you-bottom-cards p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 30px 0;
+    line-height: 1.7;
 }
 
 #help-you-bottom-cards div {

@@ -738,6 +738,54 @@ main {
     padding: 0 0 80px;
 }
 
+#help-you-cards {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 70px;
+    padding: 0 0 50px;
+}
+
+#help-you-cards-one {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0eae2;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+
+#help-you-cards-two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0eae2;
+    padding: 65px 0;
+    border-radius: 15px;
+}
+
+#help-you-card-top-img {
+    width: 200px;
+    margin: 0 0 50px;
+}
+
+#help-you-cards h4 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4;
+    padding: 0 0 40px;
+}
+
+#help-you-card-bottom-img {
+    width: 400px;
+}
+
 
 /* the css for the how we help you grow section section ends here */
 

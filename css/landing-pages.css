@@ -714,6 +714,7 @@ main {
 
 #help-you-section {
     padding: 70px 0;
+    background-color: white;
 }
 
 #help-you-div {
@@ -784,6 +785,52 @@ main {
 
 #help-you-card-bottom-img {
     width: 400px;
+}
+
+#help-you-middle-div {
+    padding: 40px 0;
+}
+
+#help-you-middle-div h2 {
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.3;
+    padding: 0 0 20px;
+}
+
+#help-you-middle-div p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 0 40px;
+}
+
+#help-you-iframe-div {
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    padding: 0 0 40px;
+}
+
+#help-you-iframe-div iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#help-you-bottom-cards {
+    padding: 40px 0;
+    display: flex;
+    gap: 70px;
+}
+
+#help-you-bottom-cards div {
+    flex: 1;
+}
+
+#help-you-bottom-cards svg {
+    width: 90px;
 }
 
 

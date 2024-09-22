@@ -837,8 +837,13 @@ main {
 #help-you-bottom-cards p {
     font-size: 18px;
     font-weight: 300;
-    padding: 30px 0;
+    padding: 0px 0 50px;
     line-height: 1.7;
+}
+
+#help-you-bottom-cards a {
+    color: blue;
+    text-decoration: underline;
 }
 
 #help-you-bottom-cards div {
@@ -847,6 +852,29 @@ main {
 
 #help-you-bottom-cards svg {
     width: 90px;
+}
+
+#help-you-testimony-div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#help-you-testimony-div img {
+    width: 210px;
+}
+
+#help-you-testimony-div q {
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+#help-you-testimony-div p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 40px 0 0;
 }
 
 

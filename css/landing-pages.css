@@ -712,6 +712,31 @@ main {
 
 /* the css for the how we help you grow section section starts here */
 
+#help-you-section {
+    padding: 70px 0;
+}
+
+#help-you-div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#help-you-top-div h1 {
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+    /* margin: 0px 0 20px; */
+    padding: 0px 0 40px;
+}
+#help-you-top-div p {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 0 80px;
+}
 
 
 /* the css for the how we help you grow section section ends here */

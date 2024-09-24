@@ -1,0 +1,1127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: rgb(245, 245, 245);
+    /* position: relative; */
+    /* font-weight: 200; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-section {
+    background-image: linear-gradient(to bottom right, black, gray);
+}
+
+#header-hero-div {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    /* box-shadow: 0 0px 1px 0; */
+    position: fixed;
+    /*this css makes the menu static */
+    top: 0;
+}
+
+main {
+    padding-top: 120px;
+    /* background-color: blue; */
+}
+
+/* desktop view for header section */
+@media only screen and (min-width: 1440px) {
+    #navbar {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+#navbar {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+    font-size: 18px;
+    /* background-color: red; */
+}
+
+/* making the navbar sticky. This class is referrence in the javascript file */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black
+}
+
+#nav-menu-links {
+    display: flex;
+    gap: 10px;
+}
+
+#nav-menu-links a {
+    color: black;
+    padding: 15px 10px;
+    font-weight: 300;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#menu-arrow {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.search-button-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#search-icon {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    /* background-color: green; */
+}
+
+#btn-login:hover {
+    background-color: blue;
+    color: white;
+}
+
+#btn-login {
+    background-color: transparent;
+    border: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: blue;
+    color: blue;
+    border-style: solid;
+    padding: 10px 20px;
+}
+
+#btn-trial {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#btn-trial:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+/* css code for the header section stops here */
+
+/* the css for the product drop down menu section starts here */
+
+.drop-down-menu-section {
+    position: absolute;
+    top: 26%;
+    left: 22.5%;
+    /* right: 7.5%; */
+    background-color: white;
+    width: 78%;
+    height: 80%;
+    translate: -15% -15%;
+    /* margin: 0 auto; */
+    display: none;
+    box-shadow: 2px 2px 4px grey;
+}
+
+#drop-down-menu-div {
+    /* width: 95%; */
+    display: flex;
+    gap: 15px;
+    /* padding: 0px 0 50px; */
+}
+
+.drop-down-menu-left {
+    flex: 1;
+    padding: 30px 20px 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.drop-down-menu-middle {
+    flex: 1;
+    padding: 30px 30px 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#ai-copy-img {
+    width: 40px;
+}
+
+.drop-down-menu-right {
+    flex: 1;
+    height: 100%;
+    padding: 30px 40px 0;
+    background-color: rgb(242, 241, 241);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-self: stretch; */
+}
+
+.drop-down-menu-right h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.drop-down-menu-right p {
+    /* font-size: 18px; */
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.drop-down-menu-right a {
+    /* font-size: 18px; */
+    border-bottom: 1px solid black;
+    padding: 3px 0px;
+    /* background-color: red; */
+    width: 33%;
+}
+
+.drop-down-menu-items p {
+    margin-left: 45px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.menu-icon-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#scale-submenu-img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* the css for the product drop down menu section ends here */
+
+/* the css for the solutions drop down menu section starts here */
+
+.solutions-down-menu-section {
+    position: absolute;
+    top: 26%;
+    left: 22.5%;
+    /* right: 7.5%; */
+    background-color: white;
+    width: 78%;
+    height: 80%;
+    translate: -15% -15%;
+    /* margin: 0 auto; */
+    display: none;
+    box-shadow: 2px 2px 4px grey;
+}
+
+#solutions-down-menu-div {
+    /* width: 95%; */
+    display: flex;
+    gap: 15px;
+    /* padding: 0px 0 50px; */
+}
+
+.solutions-down-menu-left {
+    flex: 1;
+    padding: 60px 20px 0 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-icon-link {
+    display: flex;
+    align-items: center;
+}
+
+.solutions-down-menu-middle {
+    flex: 1;
+    padding: 60px 30px 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#ai-copy-img {
+    width: 40px;
+}
+
+/* #ai-copy-img-ppc {
+    width: 30px;
+} */
+
+.solutions-down-menu-right {
+    flex: 1;
+    height: 100%;
+    padding: 60px 40px 0;
+    background-color: rgb(242, 241, 241);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-self: stretch; */
+}
+
+.solutions-down-menu-right h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.solutions-down-menu-right p {
+    /* font-size: 18px; */
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.solutions-down-menu-right a {
+    /* font-size: 18px; */
+    border-bottom: 1px solid black;
+    padding: 3px 0px;
+    /* background-color: red; */
+    width: 33%;
+}
+
+.solutions-down-menu-items p {
+    margin-left: 45px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.menu-icon-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#scale-submenu-img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* the css for the solutions drop down menu section ends here */
+
+/* #from-you-div {
+    margin-top: 50px;
+} */
+
+
+/* the css for the Resoures drop down menu section starts here */
+
+.resources-down-menu-section {
+    position: fixed;
+    top: -100%;
+    left: 22.5%;
+    /* right: 7.5%; */
+    background-color: white;
+    width: 78%;
+    height: 80%;
+    translate: -15% -15%;
+    /* margin: 0 auto; */
+    display: none;
+    box-shadow: 2px 2px 4px grey;
+}
+
+#resources-down-menu-div {
+    /* width: 95%; */
+    display: flex;
+    gap: 15px;
+    /* padding: 0px 0 50px; */
+}
+
+.resources-down-menu-left {
+    flex: 1;
+    padding: 60px 20px 0 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-icon-link {
+    display: flex;
+    align-items: center;
+}
+
+.resources-down-menu-middle {
+    flex: 1;
+    padding: 60px 30px 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#ai-copy-img {
+    width: 40px;
+}
+
+/* #ai-copy-img-ppc {
+    width: 30px;
+} */
+
+.resources-down-menu-right {
+    flex: 1;
+    height: 100%;
+    padding: 60px 40px 0;
+    background-color: rgb(242, 241, 241);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-self: stretch; */
+}
+
+#resource-right-div {
+    display: flex;
+    align-items: center;
+}
+
+#resource-right-div img {
+    width: 30px;
+}
+
+#resource-right-div h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.resources-down-menu-right p {
+    /* font-size: 18px; */
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.resources-down-menu-right a {
+    /* font-size: 18px; */
+    border-bottom: 1px solid black;
+    padding: 3px 0px;
+    /* background-color: red; */
+    width: 83%;
+}
+
+/* .resources-down-menu-items p {
+    margin-left: 45px;
+    font-size: 14px;
+    font-weight: 300;
+} */
+
+.menu-icon-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#scale-submenu-img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* the css for the Resources drop down menu section ends here */
+
+/* This is where the css for the section ion the MAIN section starts */
+
+/* the css for the landing page section starts here */
+
+#landing-page-div {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+#landing-page-right {
+    width: 50%;
+}
+
+#landing-page-right img {
+    width: 100%;
+}
+
+#landing-page-left {
+    width: 50%;
+}
+
+#landing-page-left h5 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#landing-page-top-div {
+    display: flex;
+    gap: 30px;
+}
+
+#landing-page-top-div p {
+    width: 60px;
+    height: 1.8px;
+    background-color: gray;
+}
+
+#landing-page-left h1 {
+    font-size: 51px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+#landing-page-left p {
+    font-size: 17px;
+    font-weight: 300;
+    margin: 10px 0 30px 0;
+    line-height: 1.7;
+}
+
+#landing-page-div-a {
+    width: 45%;
+    height: 60px;
+    margin: 50px 0;
+}
+
+#landing-page-left a {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    border: none;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* the css for the landing page section ends here */
+
+/* the css for the Your website is costing you customers section starts here */
+
+#website-cost-section {
+    background-color: #ECF0FF;
+}
+
+#website-cost-div {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 88%;
+    padding: 50px 0;
+    margin: 0 auto;
+    /* height: 450px; */
+    gap: 20px;
+}
+
+#website-cost-left {
+    width: 50%;
+}
+
+#website-cost-left h1{
+    font-size: 50px;
+    font-weight: 300;
+    padding: 30px 0;
+    line-height: 1.3;
+}
+
+#website-cost-left p{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 0px 0;
+    line-height: 1.7;
+}
+
+#website-cost-right {
+    width: 50%;
+}
+
+#website-cost-right iframe {
+    width: 100%;
+    height: 350px;
+}
+
+/* the css for the Your website is costing you customers section ends here */
+
+/* the css for the build stunning pages without code section starts here */
+
+#without-code-section {
+    background-color: white;
+    padding: 50px 0;
+}
+
+#without-code-section-h1{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 300;
+}
+
+#without-code-section-p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    width: 50%;
+    margin: 20px auto;
+}
+
+#without-code-div {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    gap: 100px;
+    align-items: center;
+}
+
+#without-code-div-left {
+    flex: 1;
+}
+
+#without-code-div-left img {
+    width: 100%;
+}
+
+#without-code-div-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+}
+
+#without-code-div-right img {
+    width: 60px;
+}
+
+#without-code-div-right h4 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 5px 0 20px;
+}
+
+#without-code-div-right p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#without-code-right-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#without-code-right-div img{
+    width: 30px;
+}
+
+#without-code-right-div a {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* the css for the build stunning pages without code section ends here */
+
+/* the css for the high converting landing pages section starts here */
+
+#converting-pages-section {
+    background-color: #efeded;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#converting-pages-div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#converting-pages-p {
+    width: 60px;
+    height: 8px;
+    background-color: rgb(253, 168, 182);
+    margin: 20px 0 40px;
+}
+
+#converting-pages-div h3 {
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.7;
+}
+
+#converting-pages-div p {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#converting-pages-div div {
+    width: 50%;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+#converting-pages-div a {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+/* the css for the high converting landing pages section ends here */
+
+/* the css for the how we help you grow section section starts here */
+
+#help-you-section {
+    padding: 70px 0;
+    background-color: white;
+}
+
+#help-you-div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#help-you-top-div h1 {
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+    /* margin: 0px 0 20px; */
+    padding: 0px 0 40px;
+}
+#help-you-top-div p {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 0 80px;
+}
+
+#help-you-cards {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 70px;
+    padding: 0 0 50px;
+}
+
+#help-you-cards-one {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0eae2;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+
+#help-you-cards-two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0eae2;
+    padding: 65px 0;
+    border-radius: 15px;
+}
+
+#help-you-card-top-img {
+    width: 200px;
+    margin: 0 0 50px;
+}
+
+#help-you-cards h4 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4;
+    padding: 0 0 40px;
+}
+
+#help-you-card-bottom-img {
+    width: 400px;
+}
+
+#help-you-middle-div {
+    padding: 40px 0;
+}
+
+#help-you-middle-div h2 {
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.3;
+    padding: 0 0 20px;
+}
+
+#help-you-middle-div p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 0 40px;
+}
+
+#help-you-iframe-div {
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    padding: 0 0 40px;
+}
+
+#help-you-iframe-div iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#help-you-bottom-cards {
+    width: 95%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    gap: 50px;
+}
+
+#help-you-bottom-cards h4 {
+    font-size: 28px;
+    font-weight: 300;
+    padding: 30px 0;
+    line-height: 1.5;
+}
+
+#help-you-bottom-cards p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 0 50px;
+    line-height: 1.7;
+}
+
+#help-you-bottom-cards a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#help-you-bottom-cards div {
+    flex: 1;
+}
+
+#help-you-bottom-cards svg {
+    width: 90px;
+}
+
+#help-you-testimony-div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#help-you-testimony-div img {
+    width: 210px;
+}
+
+#help-you-testimony-div q {
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+#help-you-testimony-div p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 40px 0 0;
+}
+
+/* the css for the how we help you grow section ends here */
+
+/* the css for the Get the most out of your marketing section starts here */
+
+#your-marketing-section {
+    background-color: #f0eae2;
+}
+
+#your-marketing-div {
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+#your-marketing-top {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#your-marketing-top h1 {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#your-marketing-top p {
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: center;
+    padding: 10px 0 30px;
+    /* margin-bottom: 20px; */
+}
+
+#your-marketing-bottom {
+    display: flex;
+    gap: 10px;
+    padding: 40px 0;
+}
+
+#your-marketing-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#your-marketing-cards div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#your-marketing-cards h4 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+#your-marketing-cards img {
+    width: 50px;
+}
+
+#your-marketing-cards p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#your-marketing-img {
+    flex: 1;
+}
+
+#your-marketing-img img{
+    width: 100%;
+    height: 630px;
+}
+
+/* the css for the Get the most out of your marketing section ends here */
+
+/* the css for the Start building pages for free section starts here */
+
+#building-pages-section {
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#building-pages-div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#building-pages-p {
+    width: 60px;
+    height: 8px;
+    background-color: rgb(253, 168, 182);
+    margin: 20px 0;
+}
+
+#building-pages-div h3 {
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.7;
+}
+
+#building-pages-div p {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#building-pages-div div {
+    width: 50%;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+#building-pages-div a {
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 30px 50px;
+    border-radius: 2px;
+}
+
+#building-pages-div a:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+}
+
+/* the css for the Start building pages for free section ends here */
+
+/* This is where all the css code for the MAIN section ends
+--------------------------------------------------------
+ */
+
+/* ------------------------------------------------ */
+
+/* css for the footer section starts here */
+
+#footer-links-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+/* desktop view for footer-links-section section */
+@media only screen and (min-width: 1440px) {
+    #footer-links-section {
+        width: 70%;
+        /* margin: 0px auto; */
+    }
+}
+
+#footer-links-section-img {
+    width: 200px;
+}
+
+#footer-icon-div {
+    width: 90%;
+    margin: 0 auto 50px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-links-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-links-div h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-links-div a {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer-links-div a:hover {
+    color: blue;
+}
+
+#footer-bottom-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 70px auto 0;
+}
+
+#footer-social-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#footer-policy-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+#footer-policy-links a:hover {
+    color: blue;
+}
+
+.footer-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social-icons-div {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.footer-social-icons-img {
+    width: 20px;
+}

@@ -44,7 +44,7 @@ main {
 }
 
 #navbar {
-    width: 85%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -453,6 +453,8 @@ main {
 }
 
 /* the css for the Resources drop down menu section ends here */
+
+/* This is where the css for the section ion the MAIN section starts */
 
 /* the css for the landing page section starts here */
 
@@ -1020,6 +1022,10 @@ main {
 }
 
 /* the css for the Start building pages for free section ends here */
+
+/* This is where all the css code for the MAIN section ends
+--------------------------------------------------------
+ */
 
 /* ------------------------------------------------ */
 

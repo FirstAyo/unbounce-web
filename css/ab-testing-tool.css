@@ -664,88 +664,23 @@ main {
 
 /* the css for the testimony section of the landing page single page ends here */
 
-/* the css for the how we help you grow section section starts here */
+/* the css for the Unlock your potential with A/B testing section starts here */
 
-#help-you-section {
+#potential-of-ab-section {
     padding: 70px 0;
     background-color: white;
 }
 
-#help-you-div {
+#potential-of-ab-div {
     width: 90%;
     margin: 0 auto;
 }
 
-#help-you-top-div h1 {
-    font-size: 56px;
-    font-weight: 300;
-    text-align: center;
-    /* margin: 0px 0 20px; */
-    padding: 0px 0 40px;
-}
-#help-you-top-div p {
-    width: 75%;
-    margin: 0 auto;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
-    line-height: 1.5;
-    padding: 0 0 80px;
+#potential-of-ab-div {
+    padding: 10px 0;
 }
 
-#help-you-cards {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    align-items: center;
-    gap: 70px;
-    padding: 0 0 50px;
-}
-
-#help-you-cards-one {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0eae2;
-    padding: 50px 0;
-    border-radius: 15px;
-}
-
-#help-you-cards-two {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0eae2;
-    padding: 65px 0;
-    border-radius: 15px;
-}
-
-#help-you-card-top-img {
-    width: 200px;
-    margin: 0 0 50px;
-}
-
-#help-you-cards h4 {
-    font-size: 26px;
-    font-weight: 300;
-    text-align: center;
-    line-height: 1.4;
-    padding: 0 0 40px;
-}
-
-#help-you-card-bottom-img {
-    width: 400px;
-}
-
-#help-you-middle-div {
-    padding: 40px 0;
-}
-
-#help-you-middle-div h2 {
+#potential-of-ab-div h2 {
     font-size: 56px;
     font-weight: 300;
     text-align: center;
@@ -753,7 +688,7 @@ main {
     padding: 0 0 20px;
 }
 
-#help-you-middle-div p {
+#potential-of-ab-div p {
     font-size: 20px;
     font-weight: 300;
     text-align: center;
@@ -761,54 +696,58 @@ main {
     padding: 10px 0 40px;
 }
 
-#help-you-iframe-div {
-    width: 80%;
-    height: 550px;
-    margin: 0 auto;
-    padding: 0 0 40px;
-}
-
-#help-you-iframe-div iframe {
-    width: 100%;
-    height: 100%;
-}
-
-#help-you-bottom-cards {
+#potential-of-ab-cards {
     width: 95%;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 20px 0;
     display: flex;
-    gap: 50px;
+    gap: 80px;
 }
 
-#help-you-bottom-cards h4 {
+#potential-of-ab-cards h4 {
     font-size: 28px;
     font-weight: 300;
     padding: 30px 0;
     line-height: 1.5;
 }
 
-#help-you-bottom-cards p {
+#potential-of-ab-cards p {
     font-size: 18px;
     font-weight: 300;
-    padding: 0px 0 50px;
+    padding: 0px 0 20px;
     line-height: 1.7;
+    text-align: start;
 }
 
-#help-you-bottom-cards a {
+/* #potential-of-ab-cards a {
     color: blue;
     text-decoration: underline;
-}
+} */
 
-#help-you-bottom-cards div {
+#potential-of-ab-cards div {
     flex: 1;
 }
 
-#help-you-bottom-cards svg {
-    width: 90px;
+#potential-of-ab-cards img {
+    width: 55px;
 }
 
-/* the css for the how we help you grow section ends here */
+#potential-of-ab-a {
+    background-color: blue;
+    margin: 0px auto 0px;
+    width: 23%;
+    text-align: center;
+}
+
+#potential-of-ab-a a {
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+/* the css for the Unlock your potential with A/B testing ends here */
 
 /* the css for the Get the most out of your marketing section starts here */
 

@@ -627,62 +627,42 @@ main {
 
 /* the css for the build stunning pages without code section ends here */
 
-/* the css for the high converting landing pages section starts here */
+/* the css for the testimony section of the landing page single page starts here */
 
-#converting-pages-section {
+#tesimonial-section {
     background-color: #efeded;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
-#converting-pages-div {
+/* css for the testimony section starts here */
+#help-you-testimony-div {
     width: 90%;
-    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    gap: 50px;
+    margin: 0 auto;
 }
 
-#converting-pages-p {
-    width: 60px;
-    height: 8px;
-    background-color: rgb(253, 168, 182);
-    margin: 20px 0 40px;
+#help-you-testimony-div img {
+    width: 210px;
 }
 
-#converting-pages-div h3 {
-    font-size: 35px;
+#help-you-testimony-div q {
+    font-size: 22px;
     font-weight: 300;
-    text-align: center;
+    line-height: 1.4;
+}
+
+#help-you-testimony-div p {
+    font-size: 20px;
+    font-weight: 300;
     line-height: 1.7;
+    padding: 40px 0 0;
 }
+/* css fpr the testimony section ends here */
 
-#converting-pages-div p {
-    font-size: 17px;
-    font-weight: 300;
-    text-align: center;
-}
-
-#converting-pages-div div {
-    width: 50%;
-    text-align: center;
-    margin: 40px 0 20px;
-}
-
-#converting-pages-div a {
-    background-color: black;
-    color: white;
-    font-size: 18px;
-    font-weight: 400;
-    display: inline-block;
-    padding: 20px 40px;
-}
-
-/* the css for the high converting landing pages section ends here */
+/* the css for the testimony section of the landing page single page ends here */
 
 /* the css for the how we help you grow section section starts here */
 
@@ -826,29 +806,6 @@ main {
 
 #help-you-bottom-cards svg {
     width: 90px;
-}
-
-#help-you-testimony-div {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-#help-you-testimony-div img {
-    width: 210px;
-}
-
-#help-you-testimony-div q {
-    font-size: 33px;
-    font-weight: 300;
-    line-height: 1.4;
-}
-
-#help-you-testimony-div p {
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 1.4;
-    padding: 40px 0 0;
 }
 
 /* the css for the how we help you grow section ends here */

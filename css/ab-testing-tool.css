@@ -530,51 +530,7 @@ main {
 }
 /* the css for the landing page section ends here */
 
-/* the css for the Your website is costing you customers section starts here */
-
-#website-cost-section {
-    background-color: #ECF0FF;
-}
-
-#website-cost-div {
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    width: 88%;
-    padding: 50px 0;
-    margin: 0 auto;
-    /* height: 450px; */
-    gap: 20px;
-}
-
-#website-cost-left {
-    width: 50%;
-}
-
-#website-cost-left h1{
-    font-size: 50px;
-    font-weight: 300;
-    padding: 30px 0;
-    line-height: 1.3;
-}
-
-#website-cost-left p{
-    font-size: 18px;
-    font-weight: 200;
-    padding: 0px 0;
-    line-height: 1.7;
-}
-
-#website-cost-right {
-    width: 50%;
-}
-
-#website-cost-right iframe {
-    width: 100%;
-    height: 350px;
-}
-
-/* the css for the Your website is costing you customers section ends here */
+/* ------------------------------------------------- */
 
 /* the css for the build stunning pages without code section starts here */
 
@@ -591,10 +547,10 @@ main {
 
 #without-code-section-p{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7;
     font-weight: 300;
-    width: 50%;
+    width: 60%;
     margin: 20px auto;
 }
 
@@ -616,10 +572,16 @@ main {
 
 #without-code-div-right {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-items: start;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: 1fr;
+    gap: 50px;
+    padding-top: 50px;
 }
+
+/* #without-code-div-right div {
+    background-color: red;
+} */
 
 #without-code-div-right img {
     width: 60px;
@@ -632,7 +594,7 @@ main {
 }
 
 #without-code-div-right p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.5;
 }
@@ -648,9 +610,19 @@ main {
     width: 30px;
 }
 
-#without-code-right-div a {
+#testing-btn-div {
+    background-color: blue;
+    margin: 40px auto;
+    width: 23%;
+    text-align: center;
+}
+
+#testing-btn-div a {
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 30px 0;
     font-size: 20px;
-    font-weight: 500;
 }
 
 /* the css for the build stunning pages without code section ends here */

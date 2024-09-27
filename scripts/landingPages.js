@@ -1,5 +1,7 @@
 const hiddenMenu = document.getElementsByClassName("drop-down-menu-section")[0];
+const SolutionHiddenMenu = document.getElementsByClassName("solutions-down-menu-section")[1];
 const productMenuButton = document.getElementById("product-menu-btn");
+const solutionMenuButton = document.getElementById ("solution-menu-btn");
 
 function toggleSubMenu() {
   if (hiddenMenu !== null && hiddenMenu !== undefined) {
@@ -9,5 +11,14 @@ function toggleSubMenu() {
   }
 }
 
+function toggleSolutionSubMenu() {
+  if (SolutionHiddenMenu !== null && SolutionHiddenMenu !== undefined) {
+    SolutionHiddenMenu.classList.toggle('show');
+  } else {
+    console.error('Anchor element is not defined');
+  }
+}
+
 productMenuButton.addEventListener('mouseover', toggleSubMenu);
-// productMenuButton.addEventListener('mouseout', toggleSubMenu);
+
+solutionMenuButton.addEventListener('click', toggleSolutionSubMenu);

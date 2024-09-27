@@ -3,10 +3,15 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     box-sizing: border-box;
     font-family: "Source Sans Pro", sans-serif;
     background-color: rgb(245, 245, 245);
+    height: 100%;
     /* position: relative; */
     /* font-weight: 200; */
 }
@@ -149,14 +154,42 @@ main {
     position: absolute;
     top: 26%;
     left: 22.5%;
-    /* right: 7.5%; */
+    background-color: white;
+    width: 78%;
+    height: 80%;
+    /* translate: -15% -15%; */
+    /* margin: 0 auto; */
+    visibility: hidden;
+    box-shadow: 2px 2px 4px grey;
+    overflow: hidden;
+    transform: translateY(01px);
+    transition: all 0.s ease-in-out;
+}
+
+.show {
+    position: absolute;
+    top: 26%;
+    left: 22.5%;
     background-color: white;
     width: 78%;
     height: 80%;
     translate: -15% -15%;
     /* margin: 0 auto; */
-    display: none;
     box-shadow: 2px 2px 4px grey;
+    overflow: hidden;
+    visibility: visible;
+}
+
+/* desktop view for drop-down-menu-section section */
+@media only screen and (min-width: 1440px) {
+    .drop-down-menu-section {
+        max-width: 60%;
+        height: 57%;
+        position: absolute;
+        top: 18.5%;
+        left: 29%;
+        /* translate: 0% 0%; */
+    }
 }
 
 #drop-down-menu-div {
@@ -189,7 +222,7 @@ main {
 .drop-down-menu-right {
     flex: 1;
     height: 100%;
-    padding: 30px 40px 0;
+    padding: 30px 40px 70px;
     background-color: rgb(242, 241, 241);
     display: flex;
     flex-direction: column;
@@ -536,6 +569,7 @@ main {
     font-weight: bold;
     font-size: 18px;
 }
+
 /* the css for the landing page section ends here */
 
 /* the css for the Your website is costing you customers section starts here */
@@ -567,14 +601,14 @@ main {
     width: 50%;
 }
 
-#website-cost-left h1{
+#website-cost-left h1 {
     font-size: 50px;
     font-weight: 300;
     padding: 30px 0;
     line-height: 1.3;
 }
 
-#website-cost-left p{
+#website-cost-left p {
     font-size: 18px;
     font-weight: 200;
     padding: 0px 0;
@@ -599,13 +633,13 @@ main {
     padding: 50px 0;
 }
 
-#without-code-section-h1{
+#without-code-section-h1 {
     text-align: center;
     font-size: 56px;
     font-weight: 300;
 }
 
-#without-code-section-p{
+#without-code-section-p {
     text-align: center;
     font-size: 16px;
     line-height: 1.7;
@@ -668,7 +702,7 @@ main {
     margin: 20px 0;
 }
 
-#without-code-right-div img{
+#without-code-right-div img {
     width: 30px;
 }
 
@@ -771,6 +805,7 @@ main {
     /* margin: 0px 0 20px; */
     padding: 0px 0 40px;
 }
+
 #help-you-top-div p {
     width: 75%;
     margin: 0 auto;
@@ -999,7 +1034,7 @@ main {
     flex: 1;
 }
 
-#your-marketing-img img{
+#your-marketing-img img {
     width: 100%;
     height: 630px;
 }

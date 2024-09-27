@@ -468,6 +468,14 @@ main {
     /* padding: 50px 0; */
 }
 
+/* desktop view for landing-page-div section */
+@media only screen and (min-width: 1440px) {
+    #landing-page-div {
+        max-width: 62%;
+        margin: 0 auto;
+    }
+}
+
 #landing-page-right {
     width: 50%;
 }
@@ -562,6 +570,14 @@ main {
     align-items: center;
 }
 
+/* desktop view for without-code-div section */
+@media only screen and (min-width: 1440px) {
+    #without-code-div {
+        max-width: 62%;
+        margin: 0 auto;
+    }
+}
+
 #without-code-div-left {
     flex: 1;
 }
@@ -617,6 +633,14 @@ main {
     text-align: center;
 }
 
+/* desktop view for testing-btn-div section */
+@media only screen and (min-width: 1440px) {
+    #testing-btn-div {
+        width: 15%;
+        margin: 0 auto;
+    }
+}
+
 #testing-btn-div a {
     color: white;
     display: inline-block;
@@ -642,6 +666,14 @@ main {
     align-items: center;
     gap: 50px;
     margin: 0 auto;
+}
+
+/* desktop view for help-you-testimony-div section */
+@media only screen and (min-width: 1440px) {
+    #help-you-testimony-div {
+        width: 65%;
+        margin: 0 auto;
+    }
 }
 
 #help-you-testimony-div img {
@@ -674,6 +706,14 @@ main {
 #potential-of-ab-div {
     width: 90%;
     margin: 0 auto;
+}
+
+/* desktop view for potential-of-ab-div section */
+@media only screen and (min-width: 1440px) {
+    #potential-of-ab-div {
+        width: 65%;
+        margin: 0 auto;
+    }
 }
 
 #potential-of-ab-div {
@@ -737,6 +777,14 @@ main {
     margin: 0px auto 0px;
     width: 23%;
     text-align: center;
+}
+
+/* desktop view for potential-of-ab-a section */
+@media only screen and (min-width: 1440px) {
+    #potential-of-ab-a {
+        width: 15%;
+        margin: 0 auto;
+    }
 }
 
 #potential-of-ab-a a {

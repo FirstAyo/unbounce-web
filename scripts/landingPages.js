@@ -10,7 +10,7 @@ function toggleSubMenu() {
     console.error('Anchor element is not defined');
   }
 }
-
+//this function is not working yet, try to fix when you wake up
 function toggleSolutionSubMenu() {
   if (SolutionHiddenMenu !== null && SolutionHiddenMenu !== undefined) {
     SolutionHiddenMenu.classList.toggle('show');

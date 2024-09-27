@@ -468,6 +468,14 @@ main {
     padding: 50px 0;
 }
 
+/* desktop view for landing-page-div section */
+@media only screen and (min-width: 1440px) {
+    #landing-page-div {
+        width: 62%;
+        /* margin: 0px auto; */
+    }
+}
+
 #landing-page-right {
     width: 50%;
 }
@@ -547,6 +555,14 @@ main {
     gap: 20px;
 }
 
+/* desktop view for website-cost-div section */
+@media only screen and (min-width: 1440px) {
+    #website-cost-div {
+        width: 62%;
+        /* margin: 0px auto; */
+    }
+}
+
 #website-cost-left {
     width: 50%;
 }
@@ -604,6 +620,14 @@ main {
     margin: 0 auto;
     gap: 100px;
     align-items: center;
+}
+
+/* desktop view for without-code-div section */
+@media only screen and (min-width: 1440px) {
+    #without-code-div {
+        width: 62%;
+        /* margin: 0px auto; */
+    }
 }
 
 #without-code-div-left {
@@ -675,6 +699,14 @@ main {
     align-items: center;
 }
 
+/* desktop view for converting-pages-div section */
+@media only screen and (min-width: 1440px) {
+    #converting-pages-div {
+        width: 62%;
+        /* margin: 0px auto; */
+    }
+}
+
 #converting-pages-p {
     width: 60px;
     height: 8px;
@@ -722,6 +754,14 @@ main {
 #help-you-div {
     width: 90%;
     margin: 0 auto;
+}
+
+/* desktop view for help-you-div section */
+@media only screen and (min-width: 1440px) {
+    #help-you-div {
+        width: 62%;
+        /* margin: 0px auto; */
+    }
 }
 
 #help-you-top-div h1 {
@@ -893,6 +933,14 @@ main {
     padding: 60px 0;
 }
 
+/* desktop view for your-marketing-div section */
+@media only screen and (min-width: 1440px) {
+    #your-marketing-div {
+        width: 62%;
+        /* margin: 0px auto; */
+    }
+}
+
 #your-marketing-top {
     width: 80%;
     margin: 0 auto;
@@ -977,6 +1025,14 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* desktop view for building-pages-div section */
+@media only screen and (min-width: 1440px) {
+    #building-pages-div {
+        width: 62%;
+        /* margin: 0px auto; */
+    }
 }
 
 #building-pages-p {

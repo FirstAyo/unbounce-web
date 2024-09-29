@@ -162,8 +162,8 @@ main {
     visibility: hidden;
     box-shadow: 2px 2px 4px grey;
     overflow: hidden;
-    transform: translateY(01px);
-    transition: all 0.s ease-in-out;
+    /* transform: translateY(1px); */
+    transition: 0.5s;
 }
 
 .show {

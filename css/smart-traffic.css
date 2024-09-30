@@ -465,7 +465,8 @@ main {
     align-items: center;
     margin: 0 auto;
     gap: 10px;
-    /* padding: 50px 0; */
+    padding: 0px 0 0 20px;
+    /* background-color: red; */
 }
 
 /* desktop view for landing-page-div section */
@@ -476,16 +477,16 @@ main {
     }
 }
 
+#landing-page-left {
+    width: 50%;
+}
+
 #landing-page-right {
     width: 50%;
 }
 
 #landing-page-right img {
     width: 100%;
-}
-
-#landing-page-left {
-    width: 50%;
 }
 
 #landing-page-left h5 {
@@ -519,8 +520,8 @@ main {
 }
 
 #landing-page-div-a {
-    width: 45%;
-    height: 60px;
+    width: 70%;
+    height: 70px;
     margin: 50px 0;
 }
 

@@ -375,6 +375,25 @@ article p {
     height: 32px;
 }
 
+/* this is suppose to be the css code for the hover effect of the anchor tag elements in the homepage */
+/* a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    transform: scaleX(0);
+    transform-origin: top right;
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: top left;
+} */
+
 /* campaign iframe section starts here */
 
 #campaign-iframe-div {
@@ -555,11 +574,6 @@ article p {
     flex-direction: column;
     gap: 30px;
     padding: 30px 20px;
-}
-
-.scale-marketing-iframe {
-    /* height: 400px; */
-
 }
 
 .scale-marketing-details p {
